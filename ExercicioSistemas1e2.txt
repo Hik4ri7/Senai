@@ -1,0 +1,46 @@
+Exercicio dado
+Nome: Cauê Nascimento
+
+Cod 1
+
+Exe 1- Ele esta simulando um dado sendo lançado
+
+Exe 2 - As variáveis utilizadas são: precisão, acertos, comparação, palpites, resultados.
+
+Exe 3 - Sim, é necessária a biblioteca random.
+
+Exe 4 - Serve para gerar números no intervalo de 1 a 6.
+
+Exe 5 -
+
+No laço for z in range(3), a função lancar_dado sorteia três valores e os armazena na variável resultado.
+Já no laço for j in range(3), o programa solicita ao usuário três números, os adiciona na variável chutes e verifica se os números em resultado são iguais aos de chutes. Para cada correspondência, adiciona "1" em comparacao; caso contrário, adiciona "0".
+
+Exe 6 - O método de teste consistiu em executar o código, inserir os três números solicitados e aguardar o retorno dos números sorteados.
+
+Exe 7 - O sistema apresenta um problema quando o usuário insere números fora do intervalo permitido para um dado (1 a 6). O programa aceita valores superiores a 6, mas o comportamento esperado seria rejeitá-los.
+
+Exe 8 - Para resolver isso, seria ideal usar uma verificação condicional com if para validar os números inseridos.
+
+
+Cod 2
+
+Exe 1 - Simula o lançamento de um dado e os palpites que o usuário faz.
+
+Exe 2 - As variáveis utilizadas são: resultados, palpites, comparação, quantidade, precisão e acertos.
+
+Exe 3 - Sim, requer a biblioteca random.
+
+Exe 4 - É essencial para gerar números aleatórios entre 1 e 6, tanto para os valores sorteados quanto para os números escolhidos pelo usuário.
+
+Exe 5 -
+
+O laço for i in range(quantidade) chama a função lancar_dado, que sorteia números e os armazena na variável resultado.
+O laço for k in range(quantidade) executa a função chutar_dado, que sorteia números e os adiciona na variável chutes.
+No laço for j in range(quantidade), verifica-se se os valores em resultado coincidem com os em chutes. Para cada correspondência, adiciona "1" em comparacao; caso contrário, adiciona "0".
+
+Exe 6 - Para testar, foi ampliada a quantidade de usuários simulados, verificando se o código suporta um volume maior.
+
+Exe 7 - O sistema apresenta falhas ao lidar com um número muito grande de usuários simultaneamente.
+
+Exe 8 - Uma solução seria implementar um banco de dados e utilizar um servidor mais robusto.
